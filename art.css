@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "header header header header"
+    "body body body body";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: body;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url("./images/theatre.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    font-family: 'Lora', serif;
+    font-size: 50px !important;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    font-size: xx-large;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 400px;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav h1{
+    padding-right: 300px;
+    padding-left: 50px;
+    font-size: xx-large;
+    color: white;
+}
+
+.april{
+    border: 1px solid black;
+    margin-top: 80px;
+    text-align: left;
+    text-indent: 60px;
+    width: 1000px;
+    padding: 8px;
+    background-color: rgb(226, 226, 226);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.raisin_img{
+    float: left;
+    margin-left: 10px;
+    height: 180px;
+    width: 250px;
+}
+
+section h2{
+    font-size: x-large;
+}
+
+section h4{
+    font-size: large;
+}
+
+section p{
+    font-size: large;
+}
+
+.butt{
+    display: block;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.read{
+    width: 200px;
+    height: 55px;
+    color: white;
+    background-color: orange;
+    font-size: xx-large;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    width: 1900px;
+    height: 300px;
+}
+
+.map{
+    display: block;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 350px;
+    height: 200px;
+}
+
+ul li{
+    padding-bottom: 30px;   
+    list-style-type: none;
+}
+
+footer a{
+    text-decoration: none !important;
+}
+
+.info{
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.shows{
+    padding-top: 30px;
+}
+
+.social{
+    padding-top: 30px;
+}
