@@ -154,7 +154,7 @@ footer a{
     padding-top: 30px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .topNav{
         display: flex;
         justify-content: start;
@@ -190,4 +190,12 @@ footer a{
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 500px) {
+    body, footer, main, section, nav a {
+        max-width: 100%;
+        min-width: 1000px;
+    }
+
 }
