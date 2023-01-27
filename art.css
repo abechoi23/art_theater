@@ -153,3 +153,41 @@ footer a{
 .social{
     padding-top: 30px;
 }
+
+@media (max-width: 500px) {
+    .topNav{
+        display: flex;
+        justify-content: start;
+        padding-left: 30px;
+        padding-right: 400px;
+        align-items: center;
+        flex-direction: column;
+}
+
+    h1{
+        display: flex;
+        justify-content: left;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    main {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image, .hero-text, form, footer{
+        max-width: 100%;
+    }
+
+    section .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
